@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Rustic Bite</title>
 <script defer src="main.js"></script></head>
 <body>
-    
+    <header>
+        <div class="logo">The Rustic Bite</div>
+        <nav class="tab-nav">
+            <button class="tab-btn active" data-tab="home">Home</button>
+            <button class="tab-btn" data-tab="menu">Menu</button>
+            <button class="tab-btn" data-tab="contact">Contact</button>
+        </nav>
+    </header>
+
+    <main id="content">
+        
+        <section id="home" class="tab-content active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Fresh, Local, Delicious</h1>
+                    <p>Experience the best comfort food in town, made with locally sourced ingredients.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="tab-content">
+            <div class="menu-section">
+                <h2>Featured Dishes</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <h3>Classic Wood-Fired Pizza</h3>
+                        <p>Fresh mozzarella, basil, and our signature rich tomato sauce.</p>
+                        <span class="price">$14</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Rustic Truffle Burger</h3>
+                        <p>Grass-fed beef, truffle aioli, arugula, served on a toasted brioche bun.</p>
+                        <span class="price">$16</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Hand-Crafted Pasta</h3>
+                        <p>Fresh fettuccine tossed in a creamy garlic and wild mushroom sauce.</p>
+                        <span class="price">$18</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="tab-content">
+            <div class="contact-section">
+                <h2>Visit Us</h2>
+                <p>📍 123 Culinary Lane, Food City</p>
+                <p>📞 Call us to order: (555) 123-4567</p>
+                <p>&copy; 2026 The Rustic Bite. All rights reserved.</p>
+            </div>
+        </section>
+
+    </main>
 </body>
 </html>
